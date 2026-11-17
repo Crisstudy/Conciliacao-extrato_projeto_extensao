@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório de Conciliação</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; color: #333; }
+        h2 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 8px; }
+        table { border-collapse: collapse; width: 100%; max-width: 700px; margin-bottom: 30px; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background-color: #f4f6f8; font-weight: bold; }
+        tr:nth-child(even) { background-color: #fafafa; }
+    </style>
+</head>
+<body>
+    <h2>Resumo por Data (Com Taxas Descontadas)</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Data</th>
+      <th>Valor Entrada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>01/06/2026</td>
+      <td>R$ 638.86</td>
+    </tr>
+    <tr>
+      <td>03/06/2026</td>
+      <td>R$ 600.32</td>
+    </tr>
+    <tr>
+      <td>05/06/2026</td>
+      <td>R$ 1926.72</td>
+    </tr>
+    <tr>
+      <td>08/06/2026</td>
+      <td>R$ 2683.80</td>
+    </tr>
+    <tr>
+      <td>09/06/2026</td>
+      <td>R$ 1313.60</td>
+    </tr>
+    <tr>
+      <td>10/06/2026</td>
+      <td>R$ 3967.61</td>
+    </tr>
+    <tr>
+      <td>11/06/2026</td>
+      <td>R$ 694.15</td>
+    </tr>
+    <tr>
+      <td>12/06/2026</td>
+      <td>R$ 1331.52</td>
+    </tr>
+    <tr>
+      <td>15/06/2026</td>
+      <td>R$ 1906.84</td>
+    </tr>
+    <tr>
+      <td>16/06/2026</td>
+      <td>R$ 657.18</td>
+    </tr>
+    <tr>
+      <td>18/06/2026</td>
+      <td>R$ 623.87</td>
+    </tr>
+    <tr>
+      <td>22/06/2026</td>
+      <td>R$ 1940.15</td>
+    </tr>
+    <tr>
+      <td>24/06/2026</td>
+      <td>R$ 645.68</td>
+    </tr>
+    <tr>
+      <td>25/06/2026</td>
+      <td>R$ 695.05</td>
+    </tr>
+  </tbody>
+</table>
+
+    <h2>Detalhamento das Linhas</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>pagamento_fmt</th>
+      <th>modulo</th>
+      <th>liquidado</th>
+      <th>taxa</th>
+      <th>valor_entrada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>01/06/2026</td>
+      <td>24 PRESTAÇÃO</td>
+      <td>643.44</td>
+      <td>4.58</td>
+      <td>638.86</td>
+    </tr>
+    <tr>
+      <td>03/06/2026</td>
+      <td>45 PRESTAÇÃO</td>
+      <td>604.90</td>
+      <td>4.58</td>
+      <td>600.32</td>
+    </tr>
+    <tr>
+      <td>05/06/2026</td>
+      <td>11 PRESTAÇÃO</td>
+      <td>670.94</td>
+      <td>4.58</td>
+      <td>666.36</td>
+    </tr>
+    <tr>
+      <td>05/06/2026</td>
+      <td>46 PRESTAÇÃO</td>
+      <td>634.76</td>
+      <td>4.58</td>
+      <td>630.18</td>
+    </tr>
+    <tr>
+      <td>05/06/2026</td>
+      <td>48 PRESTAÇÃO</td>
+      <td>634.76</td>
+      <td>4.58</td>
+      <td>630.18</td>
+    </tr>
+    <tr>
+      <td>08/06/2026</td>
+      <td>13/21 PRESTAÇÃO</td>
+      <td>1355.75</td>
+      <td>4.58</td>
+      <td>1351.17</td>
+    </tr>
+    <tr>
+      <td>08/06/2026</td>
+      <td>26 PRESTAÇÃO</td>
+      <td>656.93</td>
+      <td>4.58</td>
+      <td>652.35</td>
+    </tr>
+    <tr>
+      <td>08/06/2026</td>
+      <td>44 PRESTAÇÃO</td>
+      <td>684.86</td>
+      <td>4.58</td>
+      <td>680.28</td>
+    </tr>
+    <tr>
+      <td>09/06/2026</td>
+      <td>12 PRESTAÇÃO</td>
+      <td>648.30</td>
+      <td>4.58</td>
+      <td>643.72</td>
+    </tr>
+    <tr>
+      <td>09/06/2026</td>
+      <td>25 PRESTAÇÃO</td>
+      <td>674.46</td>
+      <td>4.58</td>
+      <td>669.88</td>
+    </tr>
+    <tr>
+      <td>10/06/2026</td>
+      <td>03 PRESTAÇÃO</td>
+      <td>699.00</td>
+      <td>4.58</td>
+      <td>694.42</td>
+    </tr>
+    <tr>
+      <td>10/06/2026</td>
+      <td>06 PRESTAÇÃO</td>
+      <td>705.92</td>
+      <td>4.58</td>
+      <td>701.34</td>
+    </tr>
+    <tr>
+      <td>10/06/2026</td>
+      <td>07 PRESTAÇÃO</td>
+      <td>663.13</td>
+      <td>4.58</td>
+      <td>658.55</td>
+    </tr>
+    <tr>
+      <td>10/06/2026</td>
+      <td>09 PRESTAÇÃO</td>
+      <td>634.76</td>
+      <td>4.58</td>
+      <td>630.18</td>
+    </tr>
+    <tr>
+      <td>10/06/2026</td>
+      <td>23 PRESTAÇÃO</td>
+      <td>661.82</td>
+      <td>4.58</td>
+      <td>657.24</td>
+    </tr>
+    <tr>
+      <td>10/06/2026</td>
+      <td>47 PRESTAÇÃO</td>
+      <td>630.46</td>
+      <td>4.58</td>
+      <td>625.88</td>
+    </tr>
+    <tr>
+      <td>11/06/2026</td>
+      <td>29 PRESTAÇÃO</td>
+      <td>698.73</td>
+      <td>4.58</td>
+      <td>694.15</td>
+    </tr>
+    <tr>
+      <td>12/06/2026</td>
+      <td>22 PRESTAÇÃO</td>
+      <td>705.92</td>
+      <td>4.58</td>
+      <td>701.34</td>
+    </tr>
+    <tr>
+      <td>12/06/2026</td>
+      <td>37 PRESTAÇÃO</td>
+      <td>634.76</td>
+      <td>4.58</td>
+      <td>630.18</td>
+    </tr>
+    <tr>
+      <td>15/06/2026</td>
+      <td>39 PRESTAÇÃO</td>
+      <td>649.56</td>
+      <td>4.58</td>
+      <td>644.98</td>
+    </tr>
+    <tr>
+      <td>15/06/2026</td>
+      <td>49 PRESTAÇÃO</td>
+      <td>620.76</td>
+      <td>4.58</td>
+      <td>616.18</td>
+    </tr>
+    <tr>
+      <td>15/06/2026</td>
+      <td>50 PRESTAÇÃO</td>
+      <td>650.26</td>
+      <td>4.58</td>
+      <td>645.68</td>
+    </tr>
+    <tr>
+      <td>16/06/2026</td>
+      <td>08 PRESTAÇÃO</td>
+      <td>661.76</td>
+      <td>4.58</td>
+      <td>657.18</td>
+    </tr>
+    <tr>
+      <td>18/06/2026</td>
+      <td>27 PRESTAÇÃO</td>
+      <td>628.45</td>
+      <td>4.58</td>
+      <td>623.87</td>
+    </tr>
+    <tr>
+      <td>22/06/2026</td>
+      <td>04 PRESTAÇÃO</td>
+      <td>657.78</td>
+      <td>4.58</td>
+      <td>653.20</td>
+    </tr>
+    <tr>
+      <td>22/06/2026</td>
+      <td>28 PRESTAÇÃO</td>
+      <td>649.56</td>
+      <td>4.58</td>
+      <td>644.98</td>
+    </tr>
+    <tr>
+      <td>22/06/2026</td>
+      <td>43 PRESTAÇÃO</td>
+      <td>646.55</td>
+      <td>4.58</td>
+      <td>641.97</td>
+    </tr>
+    <tr>
+      <td>24/06/2026</td>
+      <td>38 PRESTAÇÃO</td>
+      <td>650.26</td>
+      <td>4.58</td>
+      <td>645.68</td>
+    </tr>
+    <tr>
+      <td>25/06/2026</td>
+      <td>41 PRESTAÇÃO</td>
+      <td>699.63</td>
+      <td>4.58</td>
+      <td>695.05</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
